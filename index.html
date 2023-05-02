@@ -1,29 +1,56 @@
 <!DOCTYPE html>
-<!--Purpose: Test website
-    Date created: 28/02/2023-->
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>San Joaquin Valley Town Hall</title>
-        <style>
-            h1{color:rgb(127, 255, 212)}
-            body{background-color: rgba(93, 253, 253, 0.849);}
-            h3{font-style: italic; border-bottom: 5px solid rgb(226, 82, 106);}
-        </style>
+        <meta name="description" content="Right to Repair">
+        <meta name="keywords" content="Right to Repair, Steve Wozniak, ">
+        <title>Right to Repair</title>
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="icon" href="image/favicon.ico">
+        <style>main {height: 750px;}</style>
     </head>
+
     <body>
-        <header>
-            <h3>San Joaquin Valley Town Hall</h3>
-            <img src="image/logo.png" alt="logo" style="width: 100px;height: 100px;">
-            <p><strong><i>Welcome</i></strong> to San <i><u>Joaquin</u></i> Valley <u>Town</u> Hall</p>
-            <p>We have some amazing speakers <br>in store for you this season!</p>
+
+        <header style="background-image: url(https://pbs.twimg.com/media/E2TNxnQWQAEkaH1?format=jpg&name=4096x4096); background-position: center; background-size: cover; background-repeat: no-repeat;">
+            <h1>The Right to Repair</h1>
+            <img style="float: left; margin-right: 10px;"src="image/logo.png" alt="logo" width="100" height="100">
         </header>
+
+        <nav>
+            <ul>
+                <li><a class="anchorLarge">Home</a></il>
+                <li><a class="anchorLarge" href="eu.html">EU</a></li>
+                <li><a class="anchorLarge" href="usa.html">USA</a></li>
+                <li><a class="anchorLarge" href="about.html">About</a></li>
+            </ul>
+        </nav>
+
         <main>
-            <p><a href="https://www.rte.ie/" title="This is a hyperlink">Click on website</a></p>
-        <input type="checkbox" name="mailbox" unchecked>
-    </main>
+
+            <article>
+                <h1>Summary</h1>
+                <p>Right to repair is a movement aimed at giving individuals and independent repair businesses access to the tools, parts, and information needed to repair products such as electronics, appliances, and vehicles. It's a consumer protection issue that seeks to ensure that people have the ability to fix their own belongings or choose where to take them for repair, rather than being forced to rely on the original manufacturer or authorized repair providers.</p>
+                <p>The right to repair movement advocates for manufacturers to make their products more repairable and for laws to be passed to ensure that individuals and repair businesses have access to the necessary information, parts, and tools to repair products. The movement argues that this will reduce electronic waste and help consumers save money by avoiding costly repairs or replacements.</p>
+                <p>The movement has gained momentum in recent years, particularly in the United States and Europe, with legislation being proposed or passed to protect the right to repair. Supporters of the movement argue that it is an important step towards promoting sustainability, reducing electronic waste, and empowering consumers.</p>
+            </article>
+
+            <aside>
+                <img src="image/woz.png" alt="Woz" width="150" height="150">
+                <span>"I wasn't restricted from anything that kept me from building that computer and showing the world that the future of personal computers is going to be a keyboard and a TV.
+                    That all came from being able to repair things, and modify them, and tap into them yourself."</span><a href="https://www.bbc.com/news/technology-57763037">Read more...</a>
+                    <p style="font-size: 20px;">Steve Wozniak - Apple Computer Co-Founder</p>
+                <img src="image/LR.png" alt="Louis Rossmann" width="150" height="150">
+                <span>"...regardless of what you use to charge your phone — you could use a banana to charge it — just give us access to be able to purchase that charge port so that if the charge port in the phone breaks, 
+                    we can fix it for customers rather than tell them, “Your phone is now a brick.”</span><a href="https://www.nationalreview.com/2020/07/a-computer-repair-expert-takes-on-big-tech/">Read more...</a>
+                    <p style="font-size: 20px;">Louis Rossmann - Independent Repairer / Right to Repair Activist</p>
+            </aside>
+
+        </main>
+
         <footer>
-            <h4>Website footer</h4>
+            <p>&copy;Copyright 2023</p>
         </footer>
+
     </body>
 </html>
